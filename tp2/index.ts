@@ -38,6 +38,6 @@ app.use((req,res)=>{
     res.status(404).json(`route doesn't exists.`)
 })
 
-app.listen(2800, ()=>console.log(`o servidor ta rodando, é nessa porta aqui ó: ${2800}`))
+app.listen(3000, ()=>console.log(`server listening at PORT ${3000}`))
 
 })
